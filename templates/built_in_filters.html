@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+        <h1>BUILT_IN_FILTERS</h1>
+
+        <h3>{{data|upper}}</h3>
+        <h3>{{data|lower}}</h3>
+        <h3>{{data|title}}</h3>
+        <h3>{{data|capfirst}}</h3>
+        <h3>{{data|lower|capfirst}}</h3>
+        <h3>{{data|length}}</h3>
+        <h3>{{data|truncatewords:'5'}}</h3>
+        <h3>{{data|truncatechars:'50'}}</h3>
+        <h3>{{data|slice:'50'}}</h3>
+
+
+        <h2>{{dt|date:'Y M l'}}</h2>
+        <h2>{{dt|date:'y m j'}}</h2>
+
+        <h2>I have {{c}} cat{{c|pluralize}}</h2>
+        <h2>I have {{c}} mango{{c|pluralize:'es'}}</h2>
+        <h2>This {{c}} book{{c|pluralize}} {{c|pluralize:'is,are'}} Mine</h2>
+        
+    </center>
+</body>
+</html>
